@@ -37,7 +37,7 @@ class exports.Firebase extends Framer.BaseClass
 
 	request = (project, secret, path, callback, method, data, parameters, debug) ->
 
-		url = "https://#{project}.firebaseio.com#{path}.json"
+		url = "https://#{project}.firebaseio.com#{path}.json?"
 
 
 		unless parameters is undefined
